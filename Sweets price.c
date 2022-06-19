@@ -1,4 +1,4 @@
-# sweets-price
+//sweets-price
 /*Just for fun....a c program
 A C program that calculates the price of sweets and gives out the price*/
 #include<studio.h>
