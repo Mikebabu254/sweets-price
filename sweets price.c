@@ -6,7 +6,7 @@ int sweets,price,bol,pac;//variable declaration
 printf("how many sweets do you want?\n");
 scanf("%d",&sweets);//prompt the user to enter number of sweet he/she wants.
 price=sweets*10;//calculates the price of the sweet.
-if(sweets<=29)
+if(sweets<==29)
 {//open of the first "if"
 printf("give the cashier %d",price);
 }/*close of the first"if"
@@ -19,11 +19,11 @@ if(bol<=0)
 {//opening of the third "if"
 printf("buy sweets less than 29\n");
 }//closing of the third "if"
-else if(bol>=2)
+else if(bol>==2)
 {//opening of the fourth "if"
 printf("buy sweets less than 29\n");
 }//closing of the fourth"if"
-else if(bol=1)
+else if(bol==1)
 {//opening of the fifth "if"
 printf("how many packets do you want?\n");//prompt the user to input number of packet he/she wants
 scanf("%d",&pac);
